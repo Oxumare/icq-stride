@@ -14,7 +14,7 @@ GRPC adresimizi alalım:
 nano $HOME/.stride/config/app.toml
 ```
 
-Gaia node için;
+Gaia node için ;
 RPC adresimizi alalım:
 ```
 echo "$(curl -s ifconfig.me)$(grep -A 3 "\[rpc\]" ~/.gaia/config/config.toml | egrep -o ":[0-9]+")"
